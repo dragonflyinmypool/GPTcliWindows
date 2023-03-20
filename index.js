@@ -1,14 +1,13 @@
 // input
 const inputText = process.argv.slice(2).join(' ');
 // const inputText = 'I am looking for a job as a software engineer.';
-
-console.log(inputText);
+const { apiKey } = require('./api.js');
 
 const { Configuration, OpenAIApi } = require('openai');
 // require('dotenv').config();
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: apiKey,
 });
 
 // create an async function

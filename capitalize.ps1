@@ -1,10 +1,11 @@
-param (
-    [string[]]$InputArgs
-)
 
-# $CapitalizedText = $InputText.ToUpper()
-$CapitalizedText = "node C:\Users\jhein\Desktop\powerShell\index.js $InputText"
+$theFulltext = ""
+
+foreach ($arg in $args) {
+    $theFulltext += $arg + " "
+}
+
+$CapitalizedText = "node C:\Users\jhein\Desktop\powerShell\index.js $theFulltext"
 $Output = Invoke-Expression $CapitalizedText
 
-
-Write-Host "$Output"
+Write-Host "$Output" -ForegroundColor Green
