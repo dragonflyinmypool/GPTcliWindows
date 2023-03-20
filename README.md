@@ -1,8 +1,9 @@
 # PowerShell interface to query GPT3/4
-This is a general interface to query GPT3/4 from PowerShell. Currently, it is set specifically to turn natural language into PowerShell commands, but it can be used for anything.
+This is a general interface to query GPT3/4 from PowerShell using Node.js . Currently, it is set specifically to turn natural language into PowerShell commands, but it can be used for anything.
 
 ## Requirements
 - Windows PowerShell
+- Node.js
 
 ## Usage
 1. Create a file called `api.js` containing the following code:
