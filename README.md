@@ -17,13 +17,10 @@ This is a general interface to query GPT3/4 from PowerShell using Node.js . Curr
 
 2. Run the `mainScript.ps1` file by opening PowerShell and navigating to the directory containing the file. Then, run the command:
    ```powershell
-   .\mainScript.ps1
+   .\mainScript.ps1    create a new folder called helloWorld
+
    ```
-3. In the prompt, type in a natural language query, such as:
-   ```sql
-   create a new folder called helloWorld
-   ```
-   Behind the scenes, the script sends the query to the ChatGPT API, and outputs the corresponding PowerShell command:
+3.  Behind the scenes, the script sends the query to the ChatGPT API, and outputs the corresponding PowerShell command:
    ```powershell
    New-Item -ItemType Directory -Name "helloWorld"
    ```
