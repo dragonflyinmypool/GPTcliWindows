@@ -23,7 +23,7 @@ This is a general interface to query GPT3/4 from PowerShell.
 2. Run the `mainScript.ps1` file by opening PowerShell and navigating to the directory containing the file. Then, run the command:
    ```powershell
    .\mainScript.ps1    >your query here<
-   >open response will apeare here<
+   >open response will appear here<
 
    ```   
    Note: You can customize the prompt output in the `index.js` file under the "content" field.
