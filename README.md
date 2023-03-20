@@ -1,5 +1,11 @@
 # PowerShell interface to query GPT3/4
-This is a general interface to query GPT3/4 from PowerShell using Node.js . Currently, it is set specifically to turn natural language into PowerShell commands, but it can be used for anything.
+This is a general interface to query GPT3/4 from PowerShell.
+
+Type in powerShell: q create a new folder called helloWorld
+And get the answer: New-Item -ItemType Directory -Name "helloWorld"
+(all without leaving the terminal)
+
+It uses PowerShell scripts and Node.js. Currently, it is set specifically to turn natural language into PowerShell commands, but it can be used for anything.
 
 ## Requirements
 - Windows PowerShell
