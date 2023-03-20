@@ -29,6 +29,7 @@ ASSISTANT
 .js` file under the "content" field.
 
 ## Setting a permanent alias (OPTIONAL)
+After completing these steps, you can use the q alias to run the mainScript.ps1 file from anywhere in PowerShell.
 1. To create a permanent alias for the `mainScript.ps1` file, open Notepad and enter the following command:
 
    ```powershell
@@ -43,4 +44,4 @@ ASSISTANT
    ```
    Note: If the `WindowsPowerShell` folder does not exist, create it. Once the file is saved, close and reopen PowerShell for the changes to take effect.
 
-After completing these steps, you can use the `q` alias to run the `mainScript.ps1` file from anywhere in PowerShell.
+you can now use the `q` alias to run the `mainScript.ps1` file from anywhere in PowerShell.
