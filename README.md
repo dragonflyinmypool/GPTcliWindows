@@ -2,6 +2,7 @@
 This is a general interface to query GPT3/4 from PowerShell.
 
 **Type in powerShell**: q create a new folder called helloWorld
+
 **And get the answer**: New-Item -ItemType Directory -Name "helloWorld"
 (all without leaving the terminal)
 
