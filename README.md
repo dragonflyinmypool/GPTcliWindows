@@ -6,8 +6,6 @@ This is a general interface to query GPT3/4 from PowerShell.
 **And get the answer**: New-Item -ItemType Directory -Name "helloWorld"
 (all without leaving the terminal)
 
-It uses PowerShell scripts and Node.js. Currently, it is set specifically to turn natural language into PowerShell commands, but it can be used for anything.
-
 ## Requirements
 - Windows PowerShell
 - Node.js
