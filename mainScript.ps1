@@ -5,7 +5,10 @@ foreach ($arg in $args) {
     $theFulltext += $arg + " "
 }
 
-$CapitalizedText = "node C:\Users\jhein\Desktop\powerShell\index.js $theFulltext"
+$dataFilePath = Join-Path -Path $PSScriptRoot -ChildPath "\index.js"
+
+
+$CapitalizedText = "node $dataFilePath $theFulltext"
 $Output = Invoke-Expression $CapitalizedText
 
 Write-Host "$Output" -ForegroundColor Green
