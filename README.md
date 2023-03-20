@@ -28,7 +28,7 @@ This is a general interface to query GPT3/4 from PowerShell using Node.js . Curr
 ASSISTANT
 .js` file under the "content" field.
 
-## Setting a permanent alias
+## Setting a permanent alias (OPTIONAL)
 1. To create a permanent alias for the `mainScript.ps1` file, open Notepad and enter the following command:
 
    ```powershell
