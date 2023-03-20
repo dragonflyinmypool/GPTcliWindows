@@ -19,8 +19,12 @@ async function askGPT(prompt) {
     messages: [
       {
         role: 'system',
-        content:
-          'You are a helpful writting assistant. You write very very short answers.',
+        content: `I am a command line assistant hacker and software engineer. I help convert plain english into Windows PowerShell commands.
+           Input your command in plain english and I will convert it into a PowerShell command. I will try to answer with the command only. For example, you can say:
+           "create a new folder called test"
+           And I will reply:
+            "New-Item -ItemType Directory -Name "test""
+           `,
       },
       { role: 'user', content: prompt },
     ],
