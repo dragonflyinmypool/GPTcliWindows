@@ -22,16 +22,11 @@ This is a general interface to query GPT3/4 from PowerShell.
 
 2. Run the `mainScript.ps1` file by opening PowerShell and navigating to the directory containing the file. Then, run the command:
    ```powershell
-   .\mainScript.ps1    create a new folder called helloWorld
+   .\mainScript.ps1    >your query here<
+   >open response will apeare here<
 
-   ```
-3.  Behind the scenes, the script sends the query to the ChatGPT API, and outputs the corresponding PowerShell command:
-   ```powershell
-   New-Item -ItemType Directory -Name "helloWorld"
-   ```
-   Note: You can customize the prompt output in the `index
-ASSISTANT
-.js` file under the "content" field.
+   ```   
+   Note: You can customize the prompt output in the `index.js` file under the "content" field.
 
 ## Setting a permanent alias (OPTIONAL)
 After completing these steps, you can use the q alias to run the mainScript.ps1 file from anywhere in PowerShell.
